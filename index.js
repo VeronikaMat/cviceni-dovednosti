@@ -1,6 +1,6 @@
 function updateSkill(skillId, value) {
     const dovednost = document.querySelector(skillId)
-    if (dovednost===null) return
+    if (dovednost===null) return 
     
     //if (!dovednost) return=Proto if (!dovednost) return; v podstatě znamená "pokud není nalezen žádný prvek se specifikovaným ID, okamžitě ukončete funkci." 
     //Je to způsob, jak řešit případ, kdy požadovaný prvek není nalezen, 
