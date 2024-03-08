@@ -11,11 +11,11 @@ function updateSkill(skillId, value) {
     const hodnotaElement = skillElement.querySelector('.skill__value')
 
     if (progressPrvku) {
-        progressPrvku.style.width = value + `%`
+        progressPrvku.style.width = value + "%"
     }
 
     if (hodnotaElement) {
-        hodnotaElement.textContent = value +  `/ 100`
+        hodnotaElement.textContent = value +  "/ 100"
     }
 }
 
