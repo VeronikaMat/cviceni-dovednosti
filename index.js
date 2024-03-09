@@ -2,14 +2,14 @@ const updateSkill=(skillId, value)=> {
 
 
 
-    const hodnotaElement = document.querySelector(`${skillId} .skill__value`)
-    const progressPrvku = document.querySelector(`${skillId} .skill__progress`)
+    const hodnotaElement = document.querySelector(`#${skillId} .skill__value`)
+    const progressPrvku = document.querySelector(`#${skillId} .skill__progress`)
 
         hodnotaElement.textContent =`${value} 100`
     
 
    
-        progressPrvku.style.width = `${ value}%`
+        progressPrvku.style.width = `${value}%`
 
     
 }
